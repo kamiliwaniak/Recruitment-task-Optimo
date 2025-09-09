@@ -35,3 +35,26 @@ main {
 .first-shape { grid-column: 1; grid-row: 1; background: darkblue;}
 .second-shape { grid-column: 2; grid-row: 1; background: crimson;}
 .third-shape { grid-column: 3; grid-row: 1; background: darkseagreen;}
+
+
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .first-shape { grid-column: 1; grid-row: 1;}
+    .second-shape { grid-column: 1; grid-row: 2;}
+    .third-shape { grid-column: 2; grid-row: 1 / span 2;}
+}
+
+@media (max-width: 583px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .first-shape { grid-column: 1; grid-row: 1;}
+    .second-shape { grid-column: 1; grid-row: 2;}
+    .third-shape { grid-column: 1; grid-row: 3;}
+}
