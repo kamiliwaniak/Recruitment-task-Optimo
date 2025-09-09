@@ -99,6 +99,23 @@ main {
     border-radius: 50%;
 }
 
+.third-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    background: white;
+    width: 80%;
+    height: 90%;
+    min-height: 20%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+
 
 
 
