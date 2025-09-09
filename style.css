@@ -7,6 +7,10 @@ html, body {
     height: 100%;
 }
 
+:root {
+    --shape-border: 5px solid black;
+}
+
 body {
     background: #407D23;
     font-family: Arial, sans-serif;
@@ -27,7 +31,7 @@ header {
 main {
     background: #407D23;
     height: calc(100vh - 60px);
-    display:  grid;
+    display: grid;
     grid-template-columns: 33.4% 33.3% 33.3%;
     grid-template-rows: 1fr;
 }
@@ -50,7 +54,7 @@ main {
     background: #DE3323;
     width: 160px;
     height: 160px;
-    border: 5px solid black;
+    border: var(--shape-border);
     transform: rotate(45deg);
 }
 
@@ -89,14 +93,14 @@ main {
     width: 140px;
     height: 20px;
     display: inline-block;
-    border: 5px solid black;
+    border: var(--shape-border);
 }
 
 .circle {
     background: #437E7F;
     width: 130px;
     height: 130px;
-    border: 5px solid black;
+    border: var(--shape-border);
     border-radius: 50%;
 }
 
@@ -113,7 +117,7 @@ main {
     min-height: 20%;
     display: flex;
     justify-content: center;
-    border: 5px solid black;
+    border: var(--shape-border);
     padding: 10px;
 }
 
