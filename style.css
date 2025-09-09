@@ -6,3 +6,20 @@
 html, body {
     height: 100%;
 }
+
+body {
+    background: #407D23;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+}
+
+header {
+    background: #7E7F28;
+    height: 60px;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
+}
