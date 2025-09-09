@@ -23,3 +23,15 @@ header {
     border-top: 6px solid black;
     border-bottom: 6px solid black;
 }
+
+main {
+    background: chocolate;
+    height: calc(100vh - 60px);
+    display:  grid;
+    grid-template-columns: 33.4% 33.3% 33.3%;
+    grid-template-rows: 1fr;
+}
+
+.first-shape { grid-column: 1; grid-row: 1; background: darkblue;}
+.second-shape { grid-column: 2; grid-row: 1; background: crimson;}
+.third-shape { grid-column: 3; grid-row: 1; background: darkseagreen;}
